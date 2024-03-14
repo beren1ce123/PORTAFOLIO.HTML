@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    ;
+}
+
+.section.contact-info {
+    background-color: #d6c0ce;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.contact-detail {
+    margin-bottom: 100px;
+}
+
+.contact-detail i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.contact-detail p {
+    margin: 0;
+}
+
+.section.contact-info h2 {
+    margin-bottom: 200px;
+    color: #333;
+}
+
+@media screen and (max-width: 600px) {
+    .section.contact-info {
+        padding: 15px;
+    }
+}
+
